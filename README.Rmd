@@ -25,6 +25,7 @@ devtools::install_github("robsalasco/clema")
 
 ```{r}
 library(clema)
+
 clema(c("carabinera","autos","niñas"))
 ```
 
