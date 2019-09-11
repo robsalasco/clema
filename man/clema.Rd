@@ -4,7 +4,7 @@
 \alias{clema}
 \title{Lemmatize words using a chilean spanish dictionary}
 \usage{
-clema(words, replace = T)
+clema(words, replace = TRUE)
 }
 \arguments{
 \item{words}{A word or a vector of words to lemmatize}

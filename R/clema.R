@@ -7,13 +7,13 @@
 #' @export
 #'
 #' @examples clema("carabinera")
-clema <- function(words, replace=T) {
+clema <- function(words, replace=TRUE) {
 
   stopifnot(!is.na(words))
 
-  value <- spacy_lemma_dictionary_es[match(words, spacy_lemma_dictionary_es$ind), ]$values
+  value <- spacy_lemma_dictionary_es[match(words, spacy_lemma_dictionary_es$values), ]$ind
 
-  if(replace==T) {
+  if(replace==TRUE) {
     value <- replace(value, is.na(value), words[is.na(value)])
   }
 
