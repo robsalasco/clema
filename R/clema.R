@@ -10,6 +10,6 @@ clema <- function(words) {
 
   stopifnot(words)
 
-  value <- lemma_dictionary_es_cl[match(words, lemma_dictionary_es_cl$ind), ]$values
+  value <- spacy_lemma_dictionary_es[match(words, spacy_lemma_dictionary_es$ind), ]$values
   return(value)
 }
