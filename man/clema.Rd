@@ -4,13 +4,15 @@
 \alias{clema}
 \title{Lemmatize words using a chilean spanish dictionary}
 \usage{
-clema(words)
+clema(words, replace = T)
 }
 \arguments{
 \item{words}{A word or a vector of words to lemmatize}
+
+\item{replace}{If true the function will replace the NA values with originals}
 }
 \value{
-A converted vector of words
+A lemmatized vector of words
 }
 \description{
 Lemmatize words using a chilean spanish dictionary

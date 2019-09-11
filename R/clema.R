@@ -1,6 +1,7 @@
 #' Lemmatize words using a chilean spanish dictionary
 #'
 #' @param words A word or a vector of words to lemmatize
+#' @param replace If true the function will replace the NA values with originals
 #'
 #' @return A lemmatized vector of words
 #' @export
