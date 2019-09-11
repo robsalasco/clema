@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568223387079.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "998019A6",
+    "lastKnownWriteTime" : 1568226111,
+    "last_content_update" : 1568226111703,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/clema/data-raw/download_dictionary.R",
+    "project_path" : "data-raw/download_dictionary.R",
+    "properties" : {
+        "cursorPosition" : "11,85",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568217080917.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6217B7E6",
+    "lastKnownWriteTime" : 1568228336,
+    "last_content_update" : 1568228336343,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/clema/R/clema.R",
+    "project_path" : "R/clema.R",
+    "properties" : {
+        "cursorPosition" : "0,28",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
