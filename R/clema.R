@@ -8,8 +8,7 @@
 #' @examples clema("carabinera")
 clema <- function(words) {
 
-  stopifnot(words)
-
   value <- spacy_lemma_dictionary_es[match(words, spacy_lemma_dictionary_es$ind), ]$values
   return(value)
+
 }

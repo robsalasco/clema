@@ -21,6 +21,13 @@ install.packages("devtools")
 devtools::install_github("robsalasco/clema")
 ```
 
+# Usage
+
+```{r}
+library(clema)
+clema(c("carabinera","autos","niñas"))
+```
+
 # Copyright
 
 This package uses the dictionary provided by Explosion AI's spaCy and all atributions belong their creators.
