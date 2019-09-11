@@ -9,4 +9,4 @@ download.file(url, destfile = file)
 spacy_lemma_dictionary_es_cl <- stack(fromJSON(file,
                                          simplifyVector = TRUE))
 
-use_data(lemma_dictionary_es_cl, internal = FALSE, overwrite = TRUE, compress = "xz")
+use_data(spacy_lemma_dictionary_es_cl, internal = FALSE, overwrite = TRUE, compress = "xz")

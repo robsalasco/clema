@@ -7,6 +7,9 @@
 #'
 #' @examples clema("carabinera")
 clema <- function(words) {
+
+  stopifnot(words)
+
   value <- lemma_dictionary_es_cl[match(words, lemma_dictionary_es_cl$ind), ]$values
   return(value)
 }

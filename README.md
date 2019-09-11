@@ -7,7 +7,7 @@ A R small dictionary based lemmatizer with emphasis in chilean spanish.
 
 ``` r
 install.packages("devtools")
-devtools::install_github("robsalasco/sinimr")
+devtools::install_github("robsalasco/clema")
 ```
 
 # Copyright
