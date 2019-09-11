@@ -1,0 +1,12 @@
+Package: clema
+Type: Package
+Title: Easy word lemmatization using a chilean-spanish dictionary
+Version: 0.1.0
+Author: Roberto Salas
+Maintainer: Roberto Salas <rosalas@uc.cl>
+Description: Using the spaCy's dictionary as base and supplementary data this package provides
+             a small function to lemmatize words using a chilean-spanish dictionary.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
