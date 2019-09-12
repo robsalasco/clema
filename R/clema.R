@@ -11,7 +11,7 @@ clema <- function(words, replace=TRUE) {
 
   stopifnot(!is.na(words))
 
-  value <- spacy_lemma_dictionary_es[match(words, spacy_lemma_dictionary_es$values), ]$ind
+  value <- spacy_lemma_dictionary_es_cl[match(words, spacy_lemma_dictionary_es_cl$ind), ]$values
 
   if(replace==TRUE) {
     value <- replace(value, is.na(value), words[is.na(value)])
