@@ -7,6 +7,7 @@ file = paste0(tmp,"/lemma_lookup.json")
 download.file(url, destfile = file)
 
 spacy_lemma_dictionary_es <- stack(fromJSON(file,
-                                         simplifyVector = TRUE))
+                                         simplifyVector = TRUE,))
+spacy_lemma_dictionary_es$ind <- as.character(spacy_lemma_dictionary_es$ind)
 
 use_data(spacy_lemma_dictionary_es, internal = FALSE, overwrite = TRUE, compress = "xz")
